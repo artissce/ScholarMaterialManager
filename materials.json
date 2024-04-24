@@ -46,5 +46,14 @@
         "ubicacion": "salon 1",
         "maestro": 2,
         "fecha_hora_asignacion": "2024-04-23 20:50:01"
+    },
+    {
+        "id": 7,
+        "nombre": "Papel",
+        "estado": 0,
+        "ubicacion": "",
+        "maestro": "",
+        "hora": "",
+        "fecha": ""
     }
 ]
