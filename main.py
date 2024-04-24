@@ -11,7 +11,7 @@ def imprimir_mensaje(mensaje, color=Fore.WHITE):
 # Función para cargar los datos del archivo JSON, LEER
 def cargar_datos():
   try:
-    with open('materials.json', 'r') as file:
+    with open('./jsons/materials.json', 'r') as file:
       data = json.load(file)
     return data
   except FileNotFoundError:
@@ -20,7 +20,7 @@ def cargar_datos():
 
 # Función para guardar los datos en el archivo JSON
 def guardar_datos(data):
-  with open('materials.json',
+  with open('./jsons/materials.json',
             'w') as file:  #el with asegura que se cierre el archivo
     json.dump(data, file, indent=4)  #indent es la sangria
 
@@ -36,8 +36,7 @@ def agregar_material():
       "estado": 0,
       "ubicacion": "",
       "maestro": "",
-      "hora": "",
-      "fecha": ""
+      "fecha_hora_asignacion": ""
   }
   data.append(nuevo_material)
   guardar_datos(data)
