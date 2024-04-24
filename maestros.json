@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "maestro":"profe 1",
+        "ubicacion":"salon 1"
+    },
+    {   
+        "id": 2,
+        "maestro":"profe 1",
+        "ubicacion":"salon 1"
+    },
+    {
+        "id": 3,
+        "maestro":"profe 1",
+        "ubicacion":"salon 1"
+    },
+    {
+        "id": 4,
+        "maestro":"profe 1",
+        "ubicacion":"salon 1"
+    },
+    {
+        "id": 5,
+        "maestro":"profe 1",
+        "ubicacion":"salon 1"
+    },
+    {
+        "id": 6,
+        "maestro":"profe 1",
+        "ubicacion":"salon 1"
+    }
+]
