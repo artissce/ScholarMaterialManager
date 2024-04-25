@@ -1,6 +1,8 @@
 import json
 from datetime import datetime
-from colorama import init, Fore, Style
+
+from colorama import Fore, Style, init
+from func.maestro import cargar_maestros, guardar_maestros, agregar_maestro, mostrar_maestros, actualizar_maestro, eliminar_maestro,menuM  #importar funciones de maestros
 
 
 # Función para imprimir mensajes con color
@@ -168,7 +170,8 @@ def liberar_material():
 
 # Función principal
 def main():
-  while True:
+  menuM()
+  """while True:
     imprimir_mensaje("\tMENU", Fore.GREEN)
     print("\n1. Agregar material")
     print("2. Mostrar materials")
@@ -190,7 +193,7 @@ def main():
       break
     else:
       print("Opción inválida. Intente de nuevo.")
-
+  """
 
 if __name__ == "__main__":
   main()
